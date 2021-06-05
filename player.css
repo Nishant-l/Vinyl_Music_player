@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    margin: 0%;
+}
+#playerBody{
+    height: 14vh;
+    width: 99.80vw;
+    margin-top: 84.9vh;
+    border: 0.1em solid rgb(49, 129, 17);
+    display: flex;
+    background-color: black;
+    position: fixed;
+}
