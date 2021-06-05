@@ -1,13 +1,63 @@
 body{
-    background-color: black;
+    background-color: #121212;
     margin: 0%;
+    position: relative;
+    font-family: sans-serif;
+}
+body::-webkit-scrollbar {
+    width: 0.1em;
+}
+p{
+    color: blanchedalmond;
 }
 #playerBody{
-    height: 14vh;
-    width: 99.80vw;
-    margin-top: 84.9vh;
-    border: 0.1em solid rgb(49, 129, 17);
+    height: 15vh;
+    width: 100vw;
+    border-bottom: 20px solid #1ed760;
     display: flex;
-    background-color: black;
+    background-color: #181818;
     position: fixed;
+    top: 85%;
+    /* left: 0.1%; */
+    padding: 1em 1.3em;
+    box-sizing: border-box;
+}
+#currentSongInfo{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    /* border: 2px solid wheat;s */
+}
+.curentSongName{
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 16px;
+    color: #fff;
+}
+#ArtistSongName{
+    margin-top: 9px;
+    font-size: 14px
+}
+#playerController{
+    display: flex;
+    width: 60%;
+    border: 1px solid wheat;
+}
+#likeIcon{
+    height: 1.3em;
+    width: 1.3em;
+    margin-top: 1.5rem;
+    margin-left: 0.7rem;
+}
+#Button{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#Button img{
 }
