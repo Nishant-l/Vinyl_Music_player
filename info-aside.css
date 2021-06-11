@@ -1,0 +1,22 @@
+#info-aside{
+    height: 85vh;
+    width: 17vw;
+    /* background-image: linear-gradient(red); */
+    background-color: #D2122E;
+    position: fixed;
+    top: 0px;
+}
+#content{
+    position: absolute;
+    left: 19vw;
+    right: 1vw;
+    top: 10vh;
+}
+#header{
+    position: fixed;
+    height: 10vh;
+    width: 85vw;
+    left: 17vw;
+    background-color: rgba(124, 115, 115, 1);
+    z-index: 2;
+}

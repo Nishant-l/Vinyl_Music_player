@@ -42,8 +42,9 @@ p{
 }
 #playerController{
     display: flex;
+    flex-direction: column;
     width: 60%;
-    border: 1px solid wheat;
+    /* border: 1px solid wheat; */
 }
 #likeIcon{
     height: 1.3em;
@@ -59,5 +60,9 @@ p{
     justify-content: space-evenly;
     align-items: center;
 }
-#Button img{
+#Button img:hover{
+    cursor: pointer;
+}
+#volume{
+    margin:auto;
 }
