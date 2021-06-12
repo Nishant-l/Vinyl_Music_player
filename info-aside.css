@@ -10,16 +10,6 @@
     display: flex;
     flex-direction: column;
 }
-#header{
-    position: fixed;
-    height: 10vh;
-    width: 85vw;
-    left: 15vw;
-    background-color: rgba(124, 115, 115, 1);
-    z-index: 10;
-    border-bottom-right-radius: 79px;
-    /* border-bottom-left-radius: 45px;*/
-}
 #logoo img{
     height: 6em;
     width: 6em;

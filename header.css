@@ -1,0 +1,31 @@
+#header{
+    position: fixed;
+    height: 9vh;
+    width: 85vw;
+    left: 15vw;
+    background-color: rgba(124, 115, 115, 1);
+    z-index: 10;
+    border-bottom-right-radius: 79px;
+    border-bottom-left-radius: 97px;
+    display: flex;
+}
+.sin{
+    height: 36%;
+    width: 6%;
+    border: 2px solid rgb(105, 98, 98);
+    border-radius: 50px;
+    background-color: rgb(160, 153, 153);
+    margin: 1em;
+    position: absolute;
+    top: 0.3em;
+}
+.sin p{
+    margin-top: 0.2em;
+    margin-left: 8.5px;
+    padding: 2px;
+    border-radius: 50px;
+}
+.sin:hover{
+    cursor: pointer;
+    background-color:  rgb(138, 132, 132);
+}
