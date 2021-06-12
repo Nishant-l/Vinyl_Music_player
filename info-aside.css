@@ -5,8 +5,10 @@
     background-color: #D2122E;
     position: fixed;
     top: 0px;
-     border-bottom-right-radius: 127px;
+    border-bottom-right-radius: 127px;
     /* border-bottom-left-radius: 45px;*/
+    display: flex;
+    flex-direction: column;
 }
 #header{
     position: fixed;
@@ -17,4 +19,17 @@
     z-index: 10;
     border-bottom-right-radius: 79px;
     /* border-bottom-left-radius: 45px;*/
+}
+#logoo img{
+    height: 6em;
+    width: 6em;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+#logoo h1{
+    font-family: 'Lobster Two', cursive;
+    margin-left: 2em;
+    font-size: 3em;
+    margin-top: -0.81em;
 }
