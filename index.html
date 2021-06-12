@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Home Page</title>
+    <link rel="stylesheet" href="./player.css">
+    <link rel="stylesheet" href="./info-aside.css">
+    <!-- <link rel="stylesheet" href="./content.css"> -->
+    <link rel="stylesheet" href="./header.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap');
+    </style>
 </head>
 <body>
-    
+    <section id="header">
+        <div class="sin" style="left: 5em;width: 2em;"><p><</p></div>
+        <div class="sin" style="left: 8em;width: 2em;"><p>></p></div>
+        <div id="search" class="sin" style="width: 36%;left: 28%;top: 0.3em;"><p>search</p></div>
+        <div class="sin" style="left: 75vw; top: 0.3em;"><p  style="margin-left: 14px;">SignIn</p></div>
+        <div class="sin" style="left: 68vw; top: 0.3em;"><p>SignOut</p></div>
+    </section>
+    <section id="info-aside">
+        <div id="logoo">
+            <img src="./assets/static/svg/vinyl (1).svg" class="rotate" alt="">
+            <h1>Vinyl</h1>
+        </div>
+        <div id="info-nav">
+            <div><img src="./assets/static/svg/web-house-.svg" class="info-icon" alt=""> HOME</div>
+            <div><img src="./assets/static/svg/search.svg" class="info-icon" alt=""> SEARCH</div>
+            <div><img src="./assets/static/svg/books.svg" class="info-icon" alt=""> YOUR LIBERARY</div>
+        </div>
+        <!-- <div>
+            <div>Create Playlist</div>
+            <div>Liked Songs</div>
+        </div> -->
+    </section>
+
+
+
+
+
+
+
+
+    <section id="playerBody">
+        <div id="currentSongInfo">
+            <img src="./assets/static/songImg.jfif">
+            <div class="curentSongName">
+                Blowin' in the Wind
+                <div id="ArtistSongName" style="color: #b3b3b3;">Bob Dylan</div>
+            </div>
+            <img id="likeIcon" src="./assets/static/svg/heart.svg">
+        </div>
+        <div id="playerController">
+           <div id="Button">
+            <img src="./assets/static/svg/shuffle_white_24dp.svg" style="height: 1.2rem; width: 1.2rem;" alt="">
+            <img src="./assets/static/svg/skip_previous_white_24dp.svg" style="height: 1.8rem; width: 1.8rem;"alt="">
+            <img src="./assets/static/svg/pause_circle_white_24dp.svg" style="height: 2.5rem; width: 2.5rem;" alt="">
+            <img src="./assets/static/svg/skip_next_white_24dp.svg" style="height: 1.8rem; width: 1.8rem;"alt="">
+            <img src="./assets/static/svg/repeat_white_24dp.svg" style="height: 1.2rem; width: 1.2rem;" alt="">
+           </div>
+           <input type="range" style="height: 2px; margin-top: 1.5em;">
+           <!-- <audio src="//upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Test_ogg_mp3_48kbps.wav/Test_ogg_mp3_48kbps.wav.ogg" style="width: 100px;height: 100px;"></audio> -->
+        </div>
+        <div id="volume">
+            <input type="range">
+        </div>
+    </section>
 </body>
 </html>
