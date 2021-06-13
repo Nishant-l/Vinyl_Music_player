@@ -56,4 +56,5 @@
  #info-nav div:hover{
      cursor: pointer;
      /* background-color: red; */
+     color: pink;
  }

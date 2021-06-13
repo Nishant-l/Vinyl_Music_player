@@ -1,0 +1,42 @@
+#playList{
+    height: 100vh;
+    background-image: linear-gradient(to top, #000000 50%, #9e67e2 100%);
+    display: flex;
+    /* width: 100%; */
+    /* background-image: linear-gradient(120deg, rgb(132, 250, 176) 0%, rgb(143, 211, 244) 100%); */
+}
+#info-aside{
+    /* background-image: linear-gradient(to top, #c07777 50%, #cb5598 100%); */
+    background-color: black;
+    color: white;
+}
+
+#info-aside img{
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#playlist-heder{
+    height: 18em;
+    width: 80vw;
+    border: 2px solid yellow;
+    position: absolute;
+    left: 17em;
+    top: 5em;
+    display: flex;
+    flex-direction: row;
+}
+#playlist-heder img{
+    height: 74%;
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    border-left: 2px solid yellow;
+    border-bottom: 5px solid yellow;
+}
+#list{
+    position: absolute;
+    top: 25em;
+    left: 18em;
+}
