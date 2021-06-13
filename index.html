@@ -14,41 +14,46 @@
     </style>
 </head>
 <body>
+
+    <!-- header section contains search bar singin signUP -->
     <section id="header">
         <div class="sin" style="left: 5em;width: 2em;"><p><</p></div>
         <div class="sin" style="left: 8em;width: 2em;"><p>></p></div>
         <div id="search" class="sin" style="width: 36%;left: 28%;top: 0.3em;"><p>search</p></div>
         <div class="sin" style="left: 75vw; top: 0.3em;"><p  style="margin-left: 14px;">SignIn</p></div>
-        <div class="sin" style="left: 68vw; top: 0.3em;"><p>SignOut</p></div>
+        <div class="sin" style="left: 68vw; top: 0.3em;"><p>SignUp</p></div>
     </section>
+    <!-- ------------------------------------------------ -->
+
+    <!-- asside section on left side which contains logo  -->
     <section id="info-aside">
         <div id="logoo">
             <img src="./assets/static/svg/vinyl (1).svg" class="rotate" alt="">
             <h1>Vinyl</h1>
         </div>
         <div id="info-nav">
-            <div><img src="./assets/static/svg/web-house-.svg" class="info-icon" alt=""> HOME</div>
-            <div><img src="./assets/static/svg/search.svg" class="info-icon" alt=""> SEARCH</div>
-            <div><img src="./assets/static/svg/books.svg" class="info-icon" alt=""> YOUR LIBERARY</div>
+            <div class="nextt"><img src="./assets/static/svg/web-house-.svg" class="info-icon" alt=""> HOME</div>
+            <div class="nextt"><img src="./assets/static/svg/search.svg" class="info-icon" alt=""> SEARCH</div>
+            <div class="nextt"><img src="./assets/static/svg/books.svg" class="info-icon" alt=""> YOUR LIBERARY</div>
         </div>
-        <!-- <div>
-            <div>Create Playlist</div>
-            <div>Liked Songs</div>
-        </div> -->
     </section>
+    <!-- --------------------------------------------------- -->
 
-
-
+    <!-- main section which contains info about charts -->
     <section id="content">
+       
+       
+        <!-- slider on the top -->
        <div id="slider">
            <img id="img1" src="./assets/static/img3.jpg" alt="" style="left: 3%;z-index: 1;height: 14%;top: 3%;width: 22%;">
            <img id="img2" src="./assets/static/img2.jpg" alt="" style="left: 17%;z-index: 1;height: 16%;top: 2%;width: 22%;">
            <img id="img3" src="./assets/static/kw.jpg" alt="" style="left: 31%;z-index: 4;width: 37%;">
-           <!-- <img src="./assets/static/img2.jpg" alt="" style="left:43%;z-index:3;"> -->
            <img src="./assets/static/img6.jpg" alt="" style="left: 54%;z-index: 2;height: 16%;top: 2%;width: 30%;">
            <img src="./assets/static/img2.jpg" alt="" style="left: 66%;z-index: 1;height: 14%;top: 3%;width: 30%;">
        </div>
+       <!-- ----------------------------------------------------------------- -->
 
+       <!-- different playlist used event delegition to handel click event -->
        <div id="charts">
             <div class="element">
                 <div class="element-tital">TOP CHARTS</div>
@@ -146,10 +151,9 @@
             </div>
 
     </section>
+    <!-- -------------------------------------------------------------------------- -->
 
-
-
-
+    <!-- mesic players body contains play pouse reshuffle etc controls -->
     <section id="playerBody">
         <div id="currentSongInfo">
             <img src="./assets/static/songImg.jfif">
@@ -174,6 +178,8 @@
             <input type="range">
         </div>
     </section>
+    <!-- --------------------------------------------------------------- -->
 </body>
+<!-- end body----------------------------------------------------------- -->
 <script src="./index.js"></script>
 </html>

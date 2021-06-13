@@ -20,7 +20,7 @@
 #playlist-heder{
     height: 18em;
     width: 80vw;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     position: absolute;
     left: 17em;
     top: 5em;
@@ -32,11 +32,63 @@
     position: absolute;
     top: 2em;
     left: 2em;
-    border-left: 2px solid yellow;
-    border-bottom: 5px solid yellow;
+    /* border-left: 2px solid yellow;
+    border-bottom: 5px solid yellow; */
 }
 #list{
     position: absolute;
     top: 25em;
     left: 18em;
+}
+#info{
+    position: absolute;
+    left: 17em;
+    top: 5em;
+    color: white;
+}
+#playlist-nav{
+          /* border: 2px solid yellow; */
+    height: 4em;
+    margin-top: -2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4em;
+}
+#playlist-nav img{
+    height: 4em;
+    width: 4em;
+    margin-right: 2em;
+}
+.song-name{
+    height: 4em;
+    /* background-color: violet; */
+    margin-top: 1em;
+    width: 79vw;
+    display: flex;
+}
+.song-name img{
+    height: 2em;
+    width: 2em;
+    position: absolute;
+    /* top: 10em; */
+    margin: 7px;
+    visibility: collapse;
+    transition: 0.2s;
+}
+.song-name:hover{
+    background-color: rgba(70, 67, 67, 0.459);
+}
+.song-name:hover img{
+    visibility: visible;
+}
+.song-name p{
+    margin: 1em;
+}
+.song-name h6{
+    margin-top: -0.7em;
+    margin-left: 1.5em;
+    color: white;
+}
+#playlist-nav :hover{
+    cursor: pointer;
 }
