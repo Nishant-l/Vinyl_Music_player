@@ -2,8 +2,8 @@
 
 ## Home page
 
-![img](./assets/vinalimage/1.png)
+![img](./assets/vinalimage/a1.png)
 
 ## Playlist Page
 
-![img](./assets/vinalimage/2.png)
+![img](./assets/vinalimage/a2.png)
